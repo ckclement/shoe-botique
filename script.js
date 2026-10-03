@@ -1,22 +1,22 @@
 // ---------- Data ----------
 const testimonials = [
   {
-    quote: "Our online store now loads fast and customers can finally order sneakers without calling us. Thoughtful, reliable work.",
+    quote: "The online store now loads fast and customers can order sneakers without missing out. Thoughtful, Clock-It.",
     name: "Amina Wanjiru",
-    role: "Owner, Kicks & Co Boutique",
+    role: "Customer, Satisfied",
     initials: "AW"
   },
   {
-    quote: "Delivered a clean product catalogue with size and colour filters, and communicated clearly throughout the build.",
+    quote: "Delivered a perfect product with size and colour just  as ordered, promised and adhered to detail.",
     name: "Brian Otieno",
-    role: "Store Manager, StepUp Footwear",
+    role: "Client, Certified",
     initials: "BO"
   },
   {
-    quote: "The inventory tool ended our stock mix-ups. Strong problem-solving and a deep understanding of how a shop runs.",
-    name: "Grace Mutua",
-    role: "Operations Lead, Sole Society",
-    initials: "GM"
+    quote: " My all time plug. keep up the good work. Love you for deep understanding of customer needs.",
+    name: "Sylvia Chemutai",
+    role: "Customer, Day1",
+    initials: "SC"
   },
   {
     quote: "Orders now arrive neatly organised on WhatsApp and email. It saved our team hours every week.",

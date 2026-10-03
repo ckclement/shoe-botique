@@ -34,10 +34,10 @@ const testimonials = [
 
 const projects = [
   {
-    title: "Shoe Boutique Storefront",
+    title: "Online Store",
     featured: true,
-    description: "A fast online storefront for browsing shoes by size, colour and category, with a cart and secure checkout that supports M-Pesa payments.",
-    tech: ["HTML", "CSS", "JavaScript", "REST API"],
+    description: "Browse on our site and check out our latest stock. Check out shoes by size, colour and category, with a cart and secure payment checkout that supports M-Pesa payments prompts.",
+    tech: ["Jordans", "Chelsea Boots", "Nikes", "Vans", "Adidas", "Puma", "Converse", "Reebok"],
     stats: [["1,240", "Pairs listed"], ["320", "Customers"], ["95%", "Checkout success"]],
     emoji: "👟",
     link: "#"

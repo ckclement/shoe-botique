@@ -34,7 +34,7 @@ const testimonials = [
 
 const projects = [
   {
-    title: "Online Store",
+    title: "ShoeGame Online Store",
     featured: true,
     description: "Browse on our site and check out our latest stock. Check out shoes by size, colour and category, with a cart and secure payment checkout that supports M-Pesa payments prompts.",
     tech: ["Jordans", "Chelsea Boots", "Nikes", "Vans", "Adidas", "Puma", "Converse", "Reebok"],
@@ -53,7 +53,7 @@ const projects = [
   {
     title: "Online Ordering System",
     featured: false,
-    description: "A responsive ordering page where customers pick a pair, choose their size, place an order and follow its status.",
+    description: "A responsive ordering page where customers pick a pair, choose their size, place an order, make seamless payments and follow its status of delivery.",
     tech: ["HTML", "CSS", "JavaScript"],
     emoji: "🛍️",
     link: "#"

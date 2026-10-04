@@ -3,22 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ShoeGame Portfolio | Websites for Shoe Boutiques</title>
-  <meta name="description" content="Software developer building fast, simple websites and ordering systems for shoe boutiques.">
+  <title>Clement Kipngetich | Software Developer</title>
+  <meta name="description" content="Personal portfolio of Clement Kipngetich, a software developer building fast, simple websites and ordering systems for shoe boutiques.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="nav">
+  <header class="nav" id="nav">
     <div class="container nav__inner">
-      <a href="#top" class="logo"><span class="logo__mark">&lt;/&gt;</span> ShoeGame.PORTFOLIO</a>
+      <a href="#top" class="logo"><span class="logo__mark">&lt;/&gt;</span> Clement<span class="accent">.dev</span></a>
       <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
       <nav class="nav__links" id="navLinks">
         <a href="#testimonials">Testimonials</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
+        <button class="theme" id="themeBtn" aria-label="Toggle dark mode">◐</button>
         <a href="#contact" class="btn btn--primary btn--sm">Talk to me &rarr;</a>
       </nav>
     </div>
@@ -27,40 +28,32 @@
   <main id="top">
     <section class="hero">
       <div class="container hero__inner">
-        <div class="hero__text">
-          <p class="status"><span class="dot"></span>Welcome to ShoeGame store</p>
-          <h3>We got latest kicks for Women, men, and Kids. <br>New Collections! <br><span class="accent">Free home delivery for orders above KES4,999</span></h3>
-          <p class="lead"> We boast a strong track record for sales and orders over a short period. Our supply records are at a compiled turn over of above KES100,000 in less than a week period.</p>
+        <div class="hero__text reveal">
+          <p class="status"><span class="dot"></span>Available for new projects</p>
+          <h1>Hi, I'm Clement.<br>I build websites for <span class="accent">shoe boutiques.</span></h1>
+          <p class="lead">Software developer crafting fast storefronts, ordering systems and inventory tools. My boutique work has hit a turnover of over KES 100,000 in under a week, with free home delivery on orders above KES 4,999.</p>
           <div class="btn-row">
-            <a href="#contact" class="btn btn--primary">Lets hear what they got to say &rarr;</a>
-            <a href="#projects" class="btn btn--outline">Testimonials &darr;</a>
+            <a href="#projects" class="btn btn--primary">See my work &darr;</a>
+            <a href="#testimonials" class="btn btn--outline">What clients say</a>
           </div>
+          <ul class="skills"><li>Storefronts</li><li>Orders</li><li>Inventory</li><li>M-Pesa checkout</li></ul>
         </div>
-        <div class="hero__visual" aria-hidden="true">
-          <div class="hero__circle"></div>
-          <div class="code-card">
-            <pre><span class="c">// Build</span>
-<span class="k">const</span> developer = {
-  skills: [<span class="s">"Storefronts"</span>, <span class="s">"Orders"</span>, <span class="s">"Inventory"</span>],
-  focus: <span class="s">"Shoe boutiques"</span>,
-  mindset: <span class="s">"Solve real problems"</span>
-};
-
-
-console.log(<span class="s">"Let's build together!"</span>);</pre>
-          </div>
-          <div class="hero__shoe">👟 </div>
+        <div class="hero__visual reveal">
+          <div class="hero__blob"></div>
+          <figure class="portrait"><img src="images/profile.jpg" alt="Portrait of Clement relaxing on a rooftop" width="800" height="1066" fetchpriority="high"></figure>
+          <div class="chip chip--a">👟 Latest kicks for women, men &amp; kids</div>
+          <div class="chip chip--b"><span class="dot"></span> Solving real problems</div>
         </div>
       </div>
     </section>
 
     <section class="section section--tint" id="testimonials">
       <div class="container">
-        <div class="section__head">
+        <div class="section__head reveal">
           <div>
-            <p class="eyebrow"> / Testimonials 101</p>
-            <h2>What people got to say<br>about working with me.</h2>
-            <p class="sub">Feedback from my clients who've visited the shoe boutique, oredered online and various teams I've worked with.</p>
+            <p class="eyebrow">/ Testimonials</p>
+            <h2>What people say<br>about working with me.</h2>
+            <p class="sub">Feedback from customers who've visited the boutique, ordered online, and teams I've worked with.</p>
           </div>
           <div class="arrows">
             <button class="arrow" id="prevBtn" aria-label="Previous testimonials">&#8249;</button>
@@ -73,9 +66,11 @@ console.log(<span class="s">"Let's build together!"</span>);</pre>
 
     <section class="section" id="projects">
       <div class="container">
-        <p class="eyebrow">/ Projects</p>
-        <h2>Some of our updates..</h2>
-        <p class="sub">A collection of shoes for everyone. we are one-stop shop for every need and taste with fair pricing.</p>
+        <div class="reveal">
+          <p class="eyebrow">/ Projects</p>
+          <h2>Selected work</h2>
+          <p class="sub">A collection of shoes for everyone: a one-stop shop for every need and taste, with fair pricing.</p>
+        </div>
         <div id="featuredProject"></div>
         <div class="grid grid--2" id="projectList"></div>
       </div>
@@ -84,28 +79,27 @@ console.log(<span class="s">"Let's build together!"</span>);</pre>
 
   <footer class="contact" id="contact">
     <div class="container contact__inner">
-      <div class="contact__text">
-        <p class="eyebrow eyebrow--light">03 / Contact</p>
+      <div class="contact__text reveal">
+        <p class="eyebrow eyebrow--light">/ Contact</p>
         <h2>Have a concern, enquiry or an idea?<br>Let's get in touch.</h2>
-        <p class="lead lead--light">Feel free to contact us today. lets' have a conversation.</p>
+        <p class="lead lead--light">Feel free to reach out today. Let's have a conversation.</p>
         <ul class="contact__list">
-          <li><span class="icon">✉</span><div><small>Email</small><a href="mailto:developer@example.com">clement.kipngetich@student.moringaschool.com</a></div></li>
+          <li><span class="icon">✉</span><div><small>Email</small><a href="mailto:clement.kipngetich@student.moringaschool.com">clement.kipngetich@student.moringaschool.com</a></div></li>
           <li><span class="icon">⌘</span><div><small>GitHub</small><a href="https://github.com/ckclement" target="_blank" rel="noopener">github.com/ckclement</a></div></li>
         </ul>
         <div class="btn-row">
-          <a href="mailto:developer@example.com" class="btn btn--primary">Send Email &rarr;</a>
+          <a href="mailto:clement.kipngetich@student.moringaschool.com" class="btn btn--primary">Send Email &rarr;</a>
           <a href="https://github.com/ckclement" target="_blank" rel="noopener" class="btn btn--outline-light">View GitHub &#8599;</a>
         </div>
       </div>
       <div class="contact__visual" aria-hidden="true">👟</div>
     </div>
     <div class="container footer__bar">
-      <span>&copy; 2026 Developer Portfolio</span>
+      <span>&copy; 2026 Clement Kipngetich</span>
       <span>Built with HTML &bull; CSS &bull; JavaScript</span>
       <a href="#top">Back to top &uarr;</a>
     </div>
   </footer>
-
   <script src="script.js"></script>
 </body>
 </html>

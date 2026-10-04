@@ -1,10 +1,11 @@
-# Shoe Boutique Developer Portfolio
+# Clement Kipngetich | Personal Portfolio
 
 A single-page portfolio showcasing websites and ordering systems built for shoe boutiques.
 
 **Live demo:** https://your-username.github.io/your-username-portfolio/
 
 ## Features
+- Hero with personal portrait, dark/light theme toggle and scroll animations
 - Sticky navigation with links to every section and a mobile menu
 - Testimonials stored in a JavaScript array and rendered with a loop, with previous/next controls
 - Project cards (title, description, tech used) rendered from an array of objects

@@ -7,21 +7,21 @@ const testimonials = [
     initials: "AW"
   },
   {
-    quote: "Delivered a perfect product with size and colour just  as ordered, promised and adhered to detail.",
-    name: "Brian Otieno",
-    role: "Client, Certified",
+    quote: "Delivered a perfect product. My website has helped me keep my services seamless. Got a good system just as ordered, promised and adhered to detail.",
+    name: "Brian Kibet",
+    role: "C.E.O, COINLINK ",
     initials: "BO"
   },
   {
-    quote: " My all time plug. keep up the good work. Love you for deep understanding of customer needs.",
-    name: "Sylvia Chemutai",
-    role: "Customer, Day1",
-    initials: "SC"
+    quote: " My all time admin. keep up the good work sir. You really have a deep understanding of customer needs.",
+    name: "Sylvia Achieng",
+    role: "General Manager, Uchumi SACCO",
+    initials: "SA"
   },
   {
-    quote: "Orders now arrive neatly organised on WhatsApp and email. It saved our team hours every week.",
+    quote: "Orders now arrive neatly and organised to all my clients. The link to WhatsApp and email eased my communications. It saved our team hours every week.",
     name: "Peter Kimani",
-    role: "Founder, Urban Soles",
+    role: "Founder, Urban Wears",
     initials: "PK"
   },
   {
